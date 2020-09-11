@@ -1,0 +1,13 @@
+{
+    "manifest_version": 2,
+    "name": "Reshet 13 AdBlocker Premium",
+    "description": "And all night long",
+    "version": "0.0.2",
+    "permissions": ["activeTab", "tabs"],
+    "content_scripts":[
+      {
+        "matches": ["https://13tv.co.il/*"],
+        "js": ["content.js"]
+      }
+    ]
+}
